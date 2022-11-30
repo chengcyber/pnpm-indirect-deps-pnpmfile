@@ -1,0 +1,17 @@
+{
+  "name": "demo-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cheng Liu",
+  "license": "ISC",
+  "dependencies": {
+    "demo-b": "link:../demo-b",
+    "rollup-plugin-terser": "7.0.2",
+    "rollup": "^2.0.0"
+  }
+}
